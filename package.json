@@ -1,0 +1,56 @@
+{
+  "name": "time-keeper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "webpack --config webpack.test.js && mocha dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "frisby": "^2.1.1",
+    "jest": "^24.7.1",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.10",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@slack/client": "^5.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "ftp": "^0.3.10",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "logform": "^2.1.2",
+    "mongoose": "^5.4.15",
+    "nodemailer": "^6.1.1",
+    "request": "^2.88.0",
+    "winston": "^3.2.1"
+  },
+  "description": "Team Apollo: Time Keeper project",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SulePostar/apollo_tk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SulePostar/apollo_tk/issues"
+  },
+  "homepage": "https://github.com/SulePostar/apollo_tk#readme"
+}

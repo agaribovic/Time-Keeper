@@ -1,0 +1,15 @@
+ {
+        "name": "School",
+        "image": "imageUrl",
+        "contact":"Jane Doe",
+        "email":"jane@doe.com",
+        "phone":"03555555",
+        "address":
+        {
+        	"zipcode":"71000",
+        	"city":"Sarajevo",
+        	"road":"Ilidza"
+        },
+        "status":"client"
+ },
+  

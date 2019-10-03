@@ -1,0 +1,23 @@
+{
+	"firstName":"John",
+	"lastName":"Zuhdoe",
+	"gender":1,
+	"image":"imageUrl",
+	"email":"johnz@yahoo.com",
+	"phone":"033333333",
+	"position":"Project Manager",
+	"birthDay":"04.01.1995",
+	"beginDate":"04.01.2005",
+	"endDate":'',
+	"status":"status",
+	"engagements":
+		[	
+		],
+		"currentMonth":
+		[
+		]
+}
+		
+
+	
+	

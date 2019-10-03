@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- load bootstrap css -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<style>
+    #back {
+        background-image: url('images/LANDINGPIC.jpg');
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+    }
+
+    #backOverlay {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    h1 {
+        color: white;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h2 {
+        color: white;
+        margin: auto;
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Montserrat', sans-serif;
+    }
+     h3 {
+        color: white;
+        margin: auto;
+        position: fixed;
+        top: 70%;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .login {
+        float: right;
+        margin-top: 3px;
+        margin-right: 10px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+
+    .signup {
+        float: right;
+        margin-top: 3px;
+        margin-right: 30px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <div id="back">
+        <div id="backOverlay">
+            <a class="signup btn btn-primary" href="http://localhost:5000/signup?client=TK">Signup</a>
+            <a class="login btn btn-primary" href="http://localhost:5000/login?client=TK">Login</a>
+        </div>
+        <div>
+            <h1>Meet TimeKeeper,</br></h1>
+            <h2> a revolutionary solution for workplace management and employee hour utilization
+            </h2>
+            <h3>
+                <a  class="btn btn-primary" href="#">Learn more</a>
+            </h3>
+        </div>
+
+    </div>
+</body>
+
+</html>

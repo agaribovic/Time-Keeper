@@ -1,0 +1,7 @@
+{
+        "teamName": "Apollo",
+        "description": "Cool team with cool people",
+        "members": [
+            
+        ]
+   }
