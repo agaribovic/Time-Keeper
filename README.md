@@ -1,6 +1,6 @@
 # Time Keeper by Team Apollo
 ### Download the project: 
-git clone https://github.com/SulePostar/apollo_tk.git <br/> 
+git clone https://github.com/agaribovic/Time-Keeper.git <br/> 
 ### Install all the necessary dependencies by running:
 npm install <br/>
 ### Run the project: 
