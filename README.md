@@ -1,4 +1,4 @@
-# Time Keeper by Team Apollo
+# Time Keeper 
 ### Download the project: 
 git clone https://github.com/agaribovic/Time-Keeper.git <br/> 
 ### Install all the necessary dependencies by running:
