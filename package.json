@@ -37,7 +37,7 @@
     "lodash": "^4.17.11",
     "logform": "^2.1.2",
     "mongoose": "^5.4.15",
-    "nodemailer": "^6.1.1",
+    "nodemailer": "^6.4.16",
     "request": "^2.88.0",
     "winston": "^3.2.1"
   },
