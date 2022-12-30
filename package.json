@@ -19,7 +19,7 @@
     "chai-http": "^4.2.1",
     "frisby": "^2.1.1",
     "jest": "^24.7.1",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nodemon": "^1.18.10",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
